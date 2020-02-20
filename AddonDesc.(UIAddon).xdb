@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIAddon>
+  <AutoStart>true</AutoStart>
+  <Name>MyLocale</Name>
+  <Forms>
+    <Item>
+      <Form href="Widgets/MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)"/>
+      <Id>Main</Id>
+    </Item>
+  </Forms>
+  <MainFormId>Main</MainFormId>
+  <ScriptFileRefs>
+    <Item href="/Mods/SampleCommon/SampleAddonBase.lua" />
+    <Item href="Scripts/LibDnD.lua" />
+    <Item href="Scripts/Settings.lua" />
+    <Item href="Scripts/mainscript.lua" />
+  </ScriptFileRefs>
+
+</UIAddon>

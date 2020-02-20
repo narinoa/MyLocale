@@ -1,0 +1,1 @@
+MyLocale 1.0
